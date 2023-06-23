@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "init": "npm i",
+        "dev": "nuxt dev",
+        "staging": "nuxt build && nuxt start",
+        "prod": "nuxt build && nuxt start",
+        "build": "nuxt build",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview"
+    },
+    "devDependencies": {
+        "@nuxtjs/i18n": "8.0.0-beta.12",
+        "nuxt": "3.5.3",
+        "vue-i18n": "9.2.2"
+    },
+    "overrides": {
+        "vue": "latest"
+    }
+}
