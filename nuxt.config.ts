@@ -1,3 +1,4 @@
+import { locales, defaultLocale } from './locales/config'
 
 export default defineNuxtConfig({
     components: true,
@@ -13,10 +14,10 @@ export default defineNuxtConfig({
                 //     fallbackLocale: defaultLocale,
                 //     cookieCrossOrigin: true,
                 // },
-                // locales,
-                // defaultLocale,
-                // lazy: true,
-                // langDir: 'locales/',
+                locales,
+                defaultLocale,
+                lazy: true,
+                langDir: 'locales/',
             },
         ],
     ],
